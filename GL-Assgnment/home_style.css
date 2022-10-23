@@ -1,0 +1,154 @@
+body{
+    width: 100%;
+    height: 100%;
+}
+.flex-container{
+    display: flex;
+}
+.flex-child-1{
+    flex: 4;
+    margin: 5px auto;
+    text-align: center;
+    padding-left: 300px;
+}
+.flex-child-2{
+    flex: 1;
+    margin: 5px auto;
+    text-align: center;
+}
+.flex-child-left{
+    flex: 1;
+    background-color: whitesmoke;
+    text-align: center;
+    vertical-align: middle;
+}
+.flex-child-right{
+    flex: 3.5;
+    background-color: whitesmoke;
+    text-align: left;
+    vertical-align: middle;
+}
+.flex-child-name{
+    flex: 4;    
+    text-align: center;
+    vertical-align: middle;
+}
+.flex-child-img{
+    flex: 1;
+    background-color: red;
+    text-align: center;
+    vertical-align: middle;
+}
+#img-wrapper{
+    flex: 2;
+    text-align: right;
+    vertical-align: middle;
+}
+#text-wrapper{
+    flex: 3;
+    text-align: left;
+    vertical-align: middle;
+    margin: 320px 100px 300px 0px;
+    padding-left: 0px;
+    font-size: 40px;
+}
+img{
+    height: 140px;
+    width: 140px;
+    margin: 20px 140px 20px 0px;
+}
+
+#search-bar-wrapper{    
+    margin: 40px 5px 0px 5px;
+}
+#resume-wrapper,#resume-wrapper-fail{
+    background-color: bisque;
+    margin: 20px auto;
+    width: 63%;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 15px 15px 10px grey;
+}
+input{
+    font-size: 20px;
+    height: 35px;
+    border-radius: 5px;
+}
+input[type="button"]{
+    width: 100px;    
+}
+input[type="text"]{
+    width: 350px;
+    height: 35px;
+}
+#cand_img{
+    float: right;
+}
+#cand_name{
+    font-size: 40px;
+}
+#cand_job_head, #cand_job{
+    font-size: 20px;
+    font-weight: bolder;
+}
+#name-container,#img-container{
+    background-color: bisque;
+}
+#name-container{
+    padding-left: 250px;
+    border-top-left-radius: 5px;
+}
+#img-container{
+    border-top-right-radius: 5px;
+}
+#panel-container{
+    background-color:rgb(228, 225, 225);
+    margin: 20px;
+    border-radius: 3px;
+    padding: 10px;
+}
+.left-headers{
+    background-color:rgb(153, 152, 152);
+    font-size: 18px;
+    margin: 5px;
+    font-weight: bolder;
+    padding: 3px 5px 3px 10px;
+    text-align: left;
+}
+.left-text{
+    text-align: right;
+    margin: 7px 10px 7px 10px;
+    
+}
+.right-headers{
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+.right-sub-headers{
+    font-weight: bolder;
+}
+.right-text{
+    font-size: 18px;
+    margin-left:50px ;
+    margin-right: 90px;
+    text-align: justify;
+}
+li{
+    margin-left: 0px;
+}
+#resume-body{
+    padding-bottom:50px ;
+}
+#no-res-wrapper{   
+    height: 700px;
+}
+#no_res{
+    width: 300px;
+    height: 300px;
+    margin: 200px 0px 200px 200px;
+}
+#no_res-text{
+    margin-left: 140px;
+    color: red;
+    font-weight: bolder;
+}

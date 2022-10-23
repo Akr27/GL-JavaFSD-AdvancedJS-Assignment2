@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en-IN">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Home</title>
+        <link rel="stylesheet" type="text/css" href="home_style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    </head>
+    <body>
+        <div id="page-wrapper">
+            <div id="search-bar-wrapper" class="flex-container">
+                <div id="search-box-wrapper" class="flex-child-1">
+                    <input type="text" id="searchbox" name="searchbox">
+                    <input type="button" id="filter-btn" value="Filter">
+                </div>
+                <div id="nav-wrapper" class="flex-child-2">
+                    <input type="button" id="prev-btn" value="Previous">
+                    <input type="button" id="next-btn" value="Next" >
+                </div>
+            </div><br>
+            <div id="resume-wrapper-fail"></div>
+            <div id="resume-wrapper">
+                <div id="resume-head" class="flex-container">
+                    <div id="name-container" class="flex-child-name">
+                        <br><h2 id="cand_name">NAME</h2><br>
+                        <span id="cand_job_head">Applied For:&nbsp;</span>
+                        <span id="cand_job"></span><br>
+                    </div>
+                    <div id="img-container" class="flex-child-img">
+                        <br><img id="cand_img" title="Candidate Picture" src="cand_img.png"><br>
+                    </div>                    
+                </div>
+                <div id="resume-body" class="flex-container">
+                    <div id="panel-left" class="flex-child-left">
+                        <div id="panel-container">
+                            <div class="left-headers">Personal Information</div>
+                            <div id="personal-info" class="left-text">pers</div>
+                            <div class="left-headers" style="margin-top:10px;">Technical Skills</div>
+                            <div id="tech-skills" class="left-text">ts</div>
+                            <div  class="left-headers" style="margin-top:10px;">Hobbies</div>
+                            <div id="hobbies" class="left-text">hob</div>
+                        </div>
+                    </div>
+                    <div id="panel-right" class="flex-child-right">
+                        <h4 class="right-headers">Work Expirience in Previous Company</h4>
+                        <div id="work-exp" class="right-text">
+                            <span class="right-sub-headers">Company Name:</span>&nbsp;<span id="comp_name"></span><br><br>
+                            <span class="right-sub-headers">Position:</span>&nbsp;<span id="position"></span><br><br>
+                            <span class="right-sub-headers">Start Date:</span>&nbsp;<span id="start_date"></span><br><br>
+                            <span class="right-sub-headers">End Date:</span>&nbsp;<span id="end_date"></span><br><br>
+                            <span class="right-sub-headers">Summary:</span>&nbsp;<span id="summary"></span><br><br>
+                        </div>
+                        <h4 class="right-headers">Projects</h4>
+                        <div id="projects" class="right-text">
+                            <span id="proj_name" class="right-sub-headers"></span>
+                            <span id="proj_desc"></span>
+                        </div>
+                        <h4 class="right-headers">Education</h4>
+                        <div id="education" class="right-text" style="margin-left:10px;">
+                            <ul>
+                                <li><b>UG:&nbsp;</b><span id="ug"></span></li>
+                                <li><b>PU:&nbsp;</b><span id="pu"></span></li>
+                                <li><b>High School:&nbsp;</b><span id="hs"></span></li>
+                            </ul>
+                        </div>
+                        <h4 class="right-headers">Intership</h4>
+                        <div id="internships" class="right-text" style="margin-left:10px;">
+                            <ul>
+                                <li><b>Company Name:&nbsp;</b><span id="intern_comp"></span></li>
+                                <li><b>Position:&nbsp;</b><span id="intern_pos"></span></li>
+                                <li><b>Start Date:&nbsp;</b><span id="intern_start"></span></li>
+                                <li><b>End Date:&nbsp;</b><span id="intern_end"></span></li>
+                                <li><b>Summary:&nbsp;</b><span id="intern_sum"></span></li>
+                            </ul>
+                        </div>
+                        <h4 class="right-headers">Achievements</h4>
+                        <div id="achievements" class="right-text" style="margin-left:10px;margin-bottom: 40px;">                           
+                        </div>
+                    </div>
+                </div>
+            </div>            
+        </div>
+        <script type="text/javascript" src="Data.json"></script>
+        <script type="module" src="app.js"></script>        
+    </body>
+</html>
