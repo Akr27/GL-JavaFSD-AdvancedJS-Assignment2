@@ -1,0 +1,13 @@
+Username: Akshat27
+
+Password: Akshat@27
+
+Since web browsers don't support loading JSON from local storage (CORS Error), the above project is made with the help of Live Server extension in Visual Studio Code. The project needs to be run as follows:
+
+1) Download and extract project folder to local storage.
+
+2) In VS Code, click Open Folder > Select the extracted project folder.
+
+3) Click on Go Live icon on bottom bar (Live Server extension needs to be installed in VS Code).
+
+4) Select login.html from opened browser window OR right click on login.html in VS Code explorer window > Open with Live Server.
